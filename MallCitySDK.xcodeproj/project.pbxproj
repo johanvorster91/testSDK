@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A684DE21B036DF00B93810 /* MallCitySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A684D421B036DF00B93810 /* MallCitySDK.framework */; };
+		84A684E321B036DF00B93810 /* MallCitySDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A684E221B036DF00B93810 /* MallCitySDKTests.m */; };
+		84A684E521B036DF00B93810 /* MallCitySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A684D721B036DF00B93810 /* MallCitySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84A684F221B0372300B93810 /* MallAndCityHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A684EE21B0372200B93810 /* MallAndCityHttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84A684F321B0372300B93810 /* MallAndCityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A684EF21B0372200B93810 /* MallAndCityUtil.m */; };
+		84A684F421B0372300B93810 /* MallAndCityUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A684F021B0372300B93810 /* MallAndCityUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84A684F521B0372300B93810 /* MallAndCityHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A684F121B0372300B93810 /* MallAndCityHttp.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84A684DF21B036DF00B93810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84A684CB21B036DF00B93810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A684D321B036DF00B93810;
+			remoteInfo = MallCitySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84A684D421B036DF00B93810 /* MallCitySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MallCitySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A684D721B036DF00B93810 /* MallCitySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MallCitySDK.h; sourceTree = "<group>"; };
+		84A684D821B036DF00B93810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A684DD21B036DF00B93810 /* MallCitySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MallCitySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A684E221B036DF00B93810 /* MallCitySDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallCitySDKTests.m; sourceTree = "<group>"; };
+		84A684E421B036DF00B93810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A684EE21B0372200B93810 /* MallAndCityHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallAndCityHttp.h; sourceTree = "<group>"; };
+		84A684EF21B0372200B93810 /* MallAndCityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallAndCityUtil.m; sourceTree = "<group>"; };
+		84A684F021B0372300B93810 /* MallAndCityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallAndCityUtil.h; sourceTree = "<group>"; };
+		84A684F121B0372300B93810 /* MallAndCityHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallAndCityHttp.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A684D121B036DF00B93810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A684DA21B036DF00B93810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A684DE21B036DF00B93810 /* MallCitySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A684CA21B036DF00B93810 = {
+			isa = PBXGroup;
+			children = (
+				84A684D621B036DF00B93810 /* MallCitySDK */,
+				84A684E121B036DF00B93810 /* MallCitySDKTests */,
+				84A684D521B036DF00B93810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84A684D521B036DF00B93810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A684D421B036DF00B93810 /* MallCitySDK.framework */,
+				84A684DD21B036DF00B93810 /* MallCitySDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A684D621B036DF00B93810 /* MallCitySDK */ = {
+			isa = PBXGroup;
+			children = (
+				84A684D721B036DF00B93810 /* MallCitySDK.h */,
+				84A684EE21B0372200B93810 /* MallAndCityHttp.h */,
+				84A684F121B0372300B93810 /* MallAndCityHttp.m */,
+				84A684F021B0372300B93810 /* MallAndCityUtil.h */,
+				84A684EF21B0372200B93810 /* MallAndCityUtil.m */,
+				84A684D821B036DF00B93810 /* Info.plist */,
+			);
+			path = MallCitySDK;
+			sourceTree = "<group>";
+		};
+		84A684E121B036DF00B93810 /* MallCitySDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				84A684E221B036DF00B93810 /* MallCitySDKTests.m */,
+				84A684E421B036DF00B93810 /* Info.plist */,
+			);
+			path = MallCitySDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84A684CF21B036DF00B93810 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A684E521B036DF00B93810 /* MallCitySDK.h in Headers */,
+				84A684F221B0372300B93810 /* MallAndCityHttp.h in Headers */,
+				84A684F421B0372300B93810 /* MallAndCityUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84A684D321B036DF00B93810 /* MallCitySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A684E821B036DF00B93810 /* Build configuration list for PBXNativeTarget "MallCitySDK" */;
+			buildPhases = (
+				84A684CF21B036DF00B93810 /* Headers */,
+				84A684D021B036DF00B93810 /* Sources */,
+				84A684D121B036DF00B93810 /* Frameworks */,
+				84A684D221B036DF00B93810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MallCitySDK;
+			productName = MallCitySDK;
+			productReference = 84A684D421B036DF00B93810 /* MallCitySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84A684DC21B036DF00B93810 /* MallCitySDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A684EB21B036DF00B93810 /* Build configuration list for PBXNativeTarget "MallCitySDKTests" */;
+			buildPhases = (
+				84A684D921B036DF00B93810 /* Sources */,
+				84A684DA21B036DF00B93810 /* Frameworks */,
+				84A684DB21B036DF00B93810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A684E021B036DF00B93810 /* PBXTargetDependency */,
+			);
+			name = MallCitySDKTests;
+			productName = MallCitySDKTests;
+			productReference = 84A684DD21B036DF00B93810 /* MallCitySDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A684CB21B036DF00B93810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Johan Vorster";
+				TargetAttributes = {
+					84A684D321B036DF00B93810 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					84A684DC21B036DF00B93810 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 84A684CE21B036DF00B93810 /* Build configuration list for PBXProject "MallCitySDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84A684CA21B036DF00B93810;
+			productRefGroup = 84A684D521B036DF00B93810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A684D321B036DF00B93810 /* MallCitySDK */,
+				84A684DC21B036DF00B93810 /* MallCitySDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A684D221B036DF00B93810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A684DB21B036DF00B93810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A684D021B036DF00B93810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A684F521B0372300B93810 /* MallAndCityHttp.m in Sources */,
+				84A684F321B0372300B93810 /* MallAndCityUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A684D921B036DF00B93810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A684E321B036DF00B93810 /* MallCitySDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84A684E021B036DF00B93810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A684D321B036DF00B93810 /* MallCitySDK */;
+			targetProxy = 84A684DF21B036DF00B93810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84A684E621B036DF00B93810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84A684E721B036DF00B93810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A684E921B036DF00B93810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LRX2D499TT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MallCitySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johanvorster.MallCitySDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=*]" = x86_64;
+			};
+			name = Debug;
+		};
+		84A684EA21B036DF00B93810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LRX2D499TT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MallCitySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johanvorster.MallCitySDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84A684EC21B036DF00B93810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRX2D499TT;
+				INFOPLIST_FILE = MallCitySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johanvorster.MallCitySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A684ED21B036DF00B93810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRX2D499TT;
+				INFOPLIST_FILE = MallCitySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johanvorster.MallCitySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A684CE21B036DF00B93810 /* Build configuration list for PBXProject "MallCitySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A684E621B036DF00B93810 /* Debug */,
+				84A684E721B036DF00B93810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A684E821B036DF00B93810 /* Build configuration list for PBXNativeTarget "MallCitySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A684E921B036DF00B93810 /* Debug */,
+				84A684EA21B036DF00B93810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A684EB21B036DF00B93810 /* Build configuration list for PBXNativeTarget "MallCitySDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A684EC21B036DF00B93810 /* Debug */,
+				84A684ED21B036DF00B93810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A684CB21B036DF00B93810 /* Project object */;
+}
