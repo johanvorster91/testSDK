@@ -1,7 +1,8 @@
-# entersekt
-entersekt app
+# Entersekt
 
-# how to use
+Entersekt app
+
+# How to use
 
 Open your app project. 
 Go to target app in .xcodeproj file, then on General tab, search for Embed binaries section, click on +embed binaries, and then click on Add Other option on opened dialog. 
