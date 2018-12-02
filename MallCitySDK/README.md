@@ -15,6 +15,7 @@ import the following:
 
 
 #import <MallCitySDK/MallAndCityHttp.h>
+
 #import <MallCitySDK/MallAndCityUtil.h>
 
 MallAndCityHttp* httpRequest = [[MallAndCityHttp alloc] init];
