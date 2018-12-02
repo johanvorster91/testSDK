@@ -19,12 +19,14 @@ import the following:
 #import <MallCitySDK/MallAndCityUtil.h>
 
 MallAndCityHttp* httpRequest = [[MallAndCityHttp alloc] init];
+
 MallAndCityUtil* util [[MallAndCityUtil alloc] init];
 
 
 # To get all to information from webserivce (ps if no data is return from server the last succeessful data will be used)
 
 -(void) setData:(NSMutableDictionary *) data;
+
 [util setData:[httpRequest request:@"http://www.mocky.io/v2/5b7e8bc03000005c0084c210"]];
 
 
